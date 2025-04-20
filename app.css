@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  font-family: tahoma;
+}
+body {
+  background-color: #ebe6e6;
+}
+.container {
+  width: 35rem;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.tip_calculator {
+  width: 35rem;
+  height: 41rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 0 0 5px #aeaaaa;
+}
+.tip_header {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.tip_caption {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.bill_amount,
+.tip_percentage {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.bill_input {
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border: 2px solid #999;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 1.6rem;
+}
+.bill_input::-webkit-inner-spin-button,
+.bill_input::-webkit-outer-spin-button {
+  display: none;
+}
+.percentage_input {
+  margin-bottom: 1.5rem;
+}
+.tip_calculate {
+  width: 100%;
+  height: 4rem;
+  background-color: #07bd07;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 2rem;
+}
+.tip_total {
+  display: flex;
+  align-items: center;
+}
+.total {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.total_amount {
+  font-size: 2.4rem;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.total_amount::-webkit-outer-spin-button,
+.total_amount::-webkit-inner-spin-button {
+  display: none;
+}
